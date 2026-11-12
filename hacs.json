@@ -1,0 +1,5 @@
+{
+  "name": "RT_T Bluetooth Logger",
+  "homeassistant": "2025.2.0",
+  "render_readme": true
+}

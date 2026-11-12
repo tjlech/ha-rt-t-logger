@@ -1,0 +1,22 @@
+{
+  "config": {
+    "flow_title": "{name}",
+    "step": {
+      "user": {
+        "description": "Choose the logger to add.",
+        "data": {
+          "address": "Device"
+        }
+      },
+      "bluetooth_confirm": {
+        "description": "Add {name}?"
+      }
+    },
+    "abort": {
+      "already_configured": "This logger is already set up.",
+      "already_in_progress": "Setup for this logger is already in progress.",
+      "no_devices_found": "No RT_T logger is broadcasting within range of a Bluetooth adapter or proxy.",
+      "not_supported": "This device is not an RT_T logger."
+    }
+  }
+}
